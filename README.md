@@ -1,35 +1,33 @@
-<h1 align="center"> Official Website </h1> <br>
+<br>
 <p align="center">
   <a href="https://cdsorg.vercel.app/">
-    <img alt="CDS" title="CDS" src="https://github.com/GopalVerma1303/cds-website/blob/bb67b00f02372e2272497946b31bbdad59206ae2/public/cdsglobe.png" width="350">
+    <img alt="CDS" title="CDS" src="https://github.com/CodeDeployingSquad/website/blob/4c1f3e6a43ad01b4ebf911a3d1fe8a3b18e0ad08/public/cdsglobe.png" width="200">
   </a>
-</p> <br>
+</p> 
+<h1 align="center"> Official Website </h1> 
 <h4 align="center">Code was being deployed. Code has been deployed. Code will be deployed.</h4>
 
 
 <br>
 
 <div align="center">
-  <a href="https://github.com/CodeDeployingSquad?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-9-brightgreen.svg" alt="Repositories">
-  </a>
   <a href="https://github.com/CodeDeployingSquad/graphs/contributors">
-    <img src="https://img.shields.io/badge/Contributors-15-blue.svg" alt="Contributors">
+    <img src="https://img.shields.io/badge/Contributors-3-blue.svg" alt="Contributors">
   </a>
   <a href="https://github.com/CodeDeployingSquad/graphs/commit-activity">
-    <img src="https://img.shields.io/badge/Commits-3200-orange.svg" alt="Commits">
+    <img src="https://img.shields.io/badge/Commits-10-orange.svg" alt="Commits">
   </a>
   <a href="https://github.com/CodeDeployingSquad/pulls">
-    <img src="https://img.shields.io/badge/PRs%20Open-25-brightgreen.svg" alt="PRs Open">
+    <img src="https://img.shields.io/badge/PRs%20Open-3-brightgreen.svg" alt="PRs Open">
   </a>
   <a href="https://github.com/CodeDeployingSquad/issues">
-    <img src="https://img.shields.io/badge/Issues%20Open-50-red.svg" alt="Issues Open">
+    <img src="https://img.shields.io/badge/Issues%20Open-3-red.svg" alt="Issues Open">
   </a>
   <a href="https://github.com/CodeDeployingSquad/network/members">
-    <img src="https://img.shields.io/badge/Forks-30-lightgrey.svg" alt="Forks">
+    <img src="https://img.shields.io/badge/Forks-3-lightgrey.svg" alt="Forks">
   </a>
   <a href="https://github.com/CodeDeployingSquad/stargazers">
-    <img src="https://img.shields.io/badge/Stars-1500-yellow.svg" alt="Stars">
+    <img src="https://img.shields.io/badge/Stars-100-yellow.svg" alt="Stars">
   </a>
 </div>
 
