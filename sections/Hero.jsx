@@ -54,7 +54,7 @@ const Hero = () => (
         </div> */}
       </motion.div>
       <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
+        variants={slideIn("down", "tween", 0.2, 1)}
         // className='xl:h-auto md:h-[550px] h-[350px] bg-red-500 '
         className=' h-[500px] w-[500px] flex '
 
