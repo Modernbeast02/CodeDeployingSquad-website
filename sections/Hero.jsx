@@ -23,7 +23,7 @@ const Hero = () => (
         className="justify-start flex-col flex flex-1"
       >
         <TypingText title="| Here we are," />
-        <HeroText title={<>The largest community of tomorrow's opensource developers</>} />
+        <HeroText title={<>The largest community of tomorrow's open source developers</>} />
         {/* <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
