@@ -26,7 +26,7 @@ const Hero = () => (
         <TypingText title="| Here we are," />
         <HeroText title={<>The largest community of tomorrow's open source developers</>} />
         <div className=' flex md:gap-6 gap-2 md:mt-10 mt-5 pb-10'>
-          <Link href={"https://github.com/CodeDeployingSquad"} type="button" className="flex items-center h-fit py-2 px-4 bg-[#25618B] rounded-[32px] gap-[12px]">
+          <Link href={"https://github.com/CodeDeployingSquad"} type="button" className="flex items-center h-fit py-2 px-4 bg-[#333] rounded-[32px] gap-[12px]">
             <img
               src="/github.svg"
               alt="headset"
@@ -36,7 +36,7 @@ const Hero = () => (
               GitHub
             </span>
           </Link>
-          <Link href={"https://twitter.com/bettercallcds/"} type="button" className="flex items-center h-fit py-2 px-4 bg-[#25618B] rounded-[32px] gap-[12px]">
+          <Link href={"https://twitter.com/bettercallcds/"} type="button" className="flex items-center h-fit py-2 px-4 bg-[#1DA1F2] rounded-[32px] gap-[12px]">
             <img
               src="/twitter.svg"
               alt="headset"
