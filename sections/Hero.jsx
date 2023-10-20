@@ -7,10 +7,11 @@ import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 import { newFeatures } from '../constants';
 import { NewFeatures, HeroText, TypingText, EarthCanvas, Stars } from '../components';
 import { planetVariants, fadeIn } from '../utils/motion';
+import Link from 'next/link';
 
 const Hero = () => (
   <section className={`${styles.paddings} relative z-10`}>
-     <Stars />
+    <Stars />
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -24,6 +25,28 @@ const Hero = () => (
       >
         <TypingText title="| Here we are," />
         <HeroText title={<>The largest community of tomorrow's open source developers</>} />
+        <div className=' flex gap-6 md:mt-10 mt-5 pb-10'>
+          <Link href={"https://github.com/CodeDeployingSquad"} type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+            <img
+              src="/github.svg"
+              alt="headset"
+              className="w-[24px] h-[24px] object-contain text-white"
+            />
+            <span className="font-normal text-[16px] text-white">
+              GitHub
+            </span>
+          </Link>
+          <Link href={"https://twitter.com/bettercallcds/"} type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+            <img
+              src="/twitter.svg"
+              alt="headset"
+              className="w-[24px] h-[24px] object-contain"
+            />
+            <span className="font-normal text-[16px] text-white">
+              Twitter
+            </span>
+          </Link>
+        </div>
         {/* <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
