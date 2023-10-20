@@ -16,14 +16,14 @@ const Hero = () => (
     >
       <div className="flex justify-center items-center flex-col relative z-10">
         <motion.h1 variants={textVariant(1.1)} className={`${styles.heroHeading} neon-glow`}>
-          Code
+          The largest community of tomorrow's opensouce developers
         </motion.h1>
-        <motion.h1 variants={textVariant(1.1)} className={`${styles.heroHeading} neon-glow`}>
+        {/* <motion.h1 variants={textVariant(1.1)} className={`${styles.heroHeading} neon-glow`}>
           Deploying
         </motion.h1>
         <motion.h1 variants={textVariant(1.1)} className={`${styles.heroHeading} neon-glow`}>
           Squad
-        </motion.h1>
+        </motion.h1> */}
       </div>
 
       {/* <motion.div
