@@ -6,31 +6,15 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 import styles from "../styles";
 import { navVariants } from "../utils/motion";
+import navlinks from "../constants/navlinks";
+import Navlink from "../components";
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [dropdownWidth, setDropdownWidth] = useState("w-170");
+  // const [dropdownWidth, setDropdownWidth] = useState("w-170");
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 400 && window.innerHeight < 900) {
-        setDropdownWidth("w-full");
-      } else {
-        setDropdownWidth("w-170");
-      }
-    };
-    handleResize(); 
-
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
 
   return (
     <motion.nav
@@ -40,7 +24,7 @@ const Navbar = () => {
       className={`${styles.xPaddings} py-8 relative`}
       viewport={{ once: true }}
     >
-      <div className="absolute w-[50%] inset-0 gradient-01" />
+      <div className="absolute w-[50%] inset-0 gradient-01 flex justify-center items-center" />
       <div
         className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
       >
@@ -59,7 +43,7 @@ const Navbar = () => {
         <Link className=" text-white" href="/">Get Started</Link>
         <Link className=" text-white" href="/">About</Link>
       </div> */}
-        <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
+        <h2 className="font-bold text-[20px] leading-[30.24px] text-white">
           Code Deploying Squad
         </h2>
         <div className="relative">
@@ -71,44 +55,45 @@ const Navbar = () => {
           />
           {isDropdownOpen && (
             <div
-            className={`absolute top-full mt-2 bg-black rounded shadow-lg z-40  
-              }}`}
-              style={{  width: "390px",height: "620px", marginLeft: "-350px" }}
+            className={`absolute top-full pb-5 bg-black  rounded shadow-lg z-40 w-[200px]  -ml-[180px]`}
             >
-              <ul className="py-2 px-2">
-                <div className="hover:bg-blue-500 rounded p-2">
+              <ul className=" px-2">,
+              {/* {
+                navlinks.map(e => {
+                  <Navlink label={e} />
+                })
+              } */}
+                <div className="hover:bg-[#333] rounded p-2">
                   <li>
-                    <Link href="/about" className="text-white ">
-                      About
-                    </Link>
+                    <Link href="#Home" className="text-white ">Home</Link>
                   </li>
                 </div>
-                <div className="hover:bg-blue-500 rounded p-2">
+                <div className="hover:bg-[#333] rounded p-2">
                   <li>
                     <Link href="/contact" className="text-white ">Contact us</Link>
                   </li>
                 </div>
-                <div className="hover:bg-blue-500 rounded p-2">
+                <div className="hover:bg-[#333] rounded p-2">
                   <li>
                     <Link href="/location" className="text-white ">Location</Link>
                   </li>
                 </div>
-                <div className="hover:bg-blue-500 rounded p-2">
+                <div className="hover:bg-[#333] rounded p-2">
                   <li>
                     <Link href="/contact" className="text-white ">Contact us</Link>
                   </li>
                 </div>
-                <div className="hover:bg-blue-500 rounded p-2">
+                <div className="hover:bg-[#333] rounded p-2">
                   <li>
                     <Link href="/contact" className="text-white ">Contact us</Link>
                   </li>
                 </div>
-                <div className="hover:bg-blue-500 rounded p-2">
+                <div className="hover:bg-[#333] rounded p-2">
                   <li>
                     <Link href="/contact" className="text-white ">Contact us</Link>
                   </li>
                 </div>
-                <div className="hover:bg-blue-500 rounded p-2">
+                <div className="hover:bg-[#333] rounded p-2">
                   <li>
                     <Link href="/contact" className="text-white ">Contact us</Link>
                   </li>
