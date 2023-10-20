@@ -133,3 +133,7 @@ body {
   background: #65c4fa;
   filter: blur(150px);
 }
+
+/* .neon-glow {
+  text-shadow: 0 0 5px rgba(0, 0, 255, 0.5), 0 0 10px rgba(0, 0, 255, 0.75), 0 0 15px rgba(0, 0, 255, 1);
+} */
