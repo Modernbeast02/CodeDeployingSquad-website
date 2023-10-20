@@ -26,3 +26,15 @@ export const TitleText = ({ title, textStyles }) => (
     {title}
   </motion.h2>
 );
+
+export const HeroText = ({ title, textStyles }) => (
+  <motion.h2
+    variants={textVariant2}
+    initial="hidden"
+    whileInView="show"
+    className={`mt-[8px] font-extrabold md:text-[64px] text-[40px] text-white tracking-tighter ${textStyles}`}
+  >
+    {title}
+  </motion.h2>
+);
+
