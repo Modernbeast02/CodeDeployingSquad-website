@@ -12,10 +12,10 @@ const Hero = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex flex-col`}
+      className={`${styles.innerWidth} mx-auto flex flex-col relative w-full h-[550px]`}
     >
       <div className="flex justify-center items-center flex-col relative z-10">
-        <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
+        <motion.h1 variants={textVariant(1.1)} className={`${styles.heroHeading}`}>
           Code
         </motion.h1>
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>

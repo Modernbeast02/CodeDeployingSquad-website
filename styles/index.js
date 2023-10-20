@@ -15,7 +15,7 @@ const styles = {
 
   // hero section
   heroHeading:
-      'font-extrabold lg:text-[120px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[168.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] text-white tracking-tighter ',
+      'font-extrabold lg:text-[120px] md:text-[100px] sm:text-[100px] text-[80px] lg:leading-[168.4px] md:leading-[154.4px] sm:leading-[164.4px] mt-20 sm:mt-0 leading-[64.4px] text-white tracking-tighter ',
   heroDText:
       'md:w-[212px] sm:w-[80px] w-[60px] md:h-[108px] sm:h-[48px] h-[38px] md:border-[18px] border-[9px] rounded-r-[50px] border-white sm:mx-2 mx-[6px]',
 };
