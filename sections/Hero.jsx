@@ -6,12 +6,12 @@ import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 const Hero = () => (
-  <section className={`${styles.yPaddings}`}>
+  <section className={`${styles.yPaddings} bg-hero`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: true, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="flex justify-center items-center flex-col relative z-10">
@@ -34,7 +34,7 @@ const Hero = () => (
         </motion.div> */}
       </div>
 
-      <motion.div
+      {/* <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
@@ -55,7 +55,7 @@ const Hero = () => (
             />
           </div>
         </a>
-      </motion.div>
+      </motion.div> */}
 
     </motion.div>
   </section>
