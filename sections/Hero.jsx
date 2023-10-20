@@ -16,8 +16,8 @@ const Hero = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col `}
+      viewport={{ once: true, amount: 0.25 }}
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col  items-center `}
     >
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
@@ -25,24 +25,24 @@ const Hero = () => (
       >
         <TypingText title="| Here we are," />
         <HeroText title={<>The largest community of tomorrow's open source developers</>} />
-        <div className=' flex gap-6 md:mt-10 mt-5 pb-10'>
-          <Link href={"https://github.com/CodeDeployingSquad"} type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+        <div className=' flex md:gap-6 gap-2 md:mt-10 mt-5 pb-10'>
+          <Link href={"https://github.com/CodeDeployingSquad"} type="button" className="flex items-center h-fit py-2 px-4 bg-[#25618B] rounded-[32px] gap-[12px]">
             <img
               src="/github.svg"
               alt="headset"
               className="w-[24px] h-[24px] object-contain text-white"
             />
-            <span className="font-normal text-[16px] text-white">
+            <span className="font-normal text-[13px] text-white">
               GitHub
             </span>
           </Link>
-          <Link href={"https://twitter.com/bettercallcds/"} type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+          <Link href={"https://twitter.com/bettercallcds/"} type="button" className="flex items-center h-fit py-2 px-4 bg-[#25618B] rounded-[32px] gap-[12px]">
             <img
               src="/twitter.svg"
               alt="headset"
               className="w-[24px] h-[24px] object-contain"
             />
-            <span className="font-normal text-[16px] text-white">
+            <span className="font-normal text-[13px] text-white">
               Twitter
             </span>
           </Link>
