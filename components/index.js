@@ -7,7 +7,8 @@ import InsightCard from './InsightCard';
 import Footer from './Footer';
 import EarthCanvas from './Earth';
 import CanvasLoader from './Loader';
-import Stars from './Stars'
+import Stars from './Stars';
+import Navlink from './Navlink';
 
 export {
   Navbar,
@@ -21,5 +22,6 @@ export {
   HeroText,
   EarthCanvas,
   CanvasLoader,
-  Stars
+  Stars,
+  Navlink
 };
