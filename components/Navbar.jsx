@@ -15,8 +15,8 @@ const Navbar = () => (
   >
     <div className="absolute w-[50%] inset-0 gradient-01" />
     <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
-      <img src="/search.svg" alt="search" className="w-[24px] h-[24px] object-contain" />
-      <div className="  md:space-x-20">
+      <img src="/search.svg" alt="search" className="w-[24px] h-[24px] object-contain md:hidden" />
+      <div className=" md:space-x-7 lg:space-x-16 justify-center w-full md:inline-flex hidden font-bold text-sm">
         <Link className=" text-white" href="/">Hero</Link>
         <Link className=" text-white" href="/">Explore</Link>
         <Link className=" text-white" href="/">Feedback</Link>
@@ -26,7 +26,7 @@ const Navbar = () => (
         <Link className=" text-white" href="/">Get Started</Link>
         <Link className=" text-white" href="/">About</Link>
       </div>
-      <img src="/menu.svg" alt="menu" className="w-[24px] h-[24px] object-contain" />
+      <img src="/menu.svg" alt="menu" className="w-[24px] h-[24px] object-contain md:hidden" />
     </div>
   </motion.nav>
 );
