@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
 
-const Feedback = () => (
+const FounderNote = () => (
   <section className={`${styles.paddings}`}>
     <motion.div
       variants={staggerContainer}
@@ -21,10 +21,10 @@ const Feedback = () => (
         <div className="feedback-gradient" />
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
-            Samantha
+            Gopal Verma
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            Founder Metaverus
+            Founder CDS
           </p>
         </div>
 
@@ -60,4 +60,4 @@ const Feedback = () => (
   </section>
 );
 
-export default Feedback;
+export default FounderNote;

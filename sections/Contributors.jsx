@@ -6,7 +6,7 @@ import styles from '../styles';
 import { TitleText, TypingText } from '../components';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
-const World = () => (
+const Contributors = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
@@ -16,7 +16,7 @@ const World = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
 
-      <TypingText title="| People on the World" textStyles="text-center" />
+      <TypingText title="| Contributors" textStyles="text-center" />
       <TitleText
         title={(
           <>Track friends around you and invite them to play together in the same
@@ -48,4 +48,4 @@ const World = () => (
   </section>
 );
 
-export default World;
+export default Contributors;

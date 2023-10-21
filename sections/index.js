@@ -1,19 +1,19 @@
 import Hero from './Hero';
 import About from './About';
-import Explore from './Explore';
-import GetStarted from './GetStarted';
-import WhatsNew from './WhatsNew';
-import World from './World';
-import Insights from './Insights';
-import Feedback from './Feedback';
+import Domains from './Domains';
+import ContriGuide from './ContiGuide';
+import CodeOfConduct from './CodeOfConduct';
+import Contributors from './Contributors';
+import Projects from './Projects';
+import FounderNote from './FounderNote';
 
 export {
   Hero,
   About,
-  Explore,
-  GetStarted,
-  WhatsNew,
-  World,
-  Insights,
-  Feedback,
+  Domains,
+  ContriGuide,
+  CodeOfConduct,
+  Contributors,
+  Projects,
+  FounderNote,
 };

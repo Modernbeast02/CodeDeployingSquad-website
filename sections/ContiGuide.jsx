@@ -7,7 +7,7 @@ import { startingFeatures } from '../constants';
 import { StartSteps, TitleText, TypingText } from '../components';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 
-const GetStarted = () => (
+const ContriGuide = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
@@ -30,7 +30,7 @@ const GetStarted = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| How CDS Works" />
+        <TypingText title="| Contributor's Guide" />
         <TitleText title={<>Get started with just a few clicks</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
@@ -46,4 +46,4 @@ const GetStarted = () => (
   </section>
 );
 
-export default GetStarted;
+export default ContriGuide;

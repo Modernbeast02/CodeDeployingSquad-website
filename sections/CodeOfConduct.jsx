@@ -7,7 +7,7 @@ import { newFeatures } from '../constants';
 import { NewFeatures, TitleText, TypingText } from '../components';
 import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
 
-const WhatsNew = () => (
+const CodeOfConduct = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
@@ -20,7 +20,7 @@ const WhatsNew = () => (
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
-        <TypingText title="| Whats new?" />
+        <TypingText title="| Code Of Conduct" />
         <TitleText title={<>What's new about CDS?</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (
@@ -43,4 +43,4 @@ const WhatsNew = () => (
   </section>
 );
 
-export default WhatsNew;
+export default CodeOfConduct;

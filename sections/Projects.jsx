@@ -7,7 +7,7 @@ import { insights } from '../constants';
 import { staggerContainer } from '../utils/motion';
 import { InsightCard, TitleText, TypingText } from '../components';
 
-const Insights = () => (
+const Projects = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
@@ -16,7 +16,7 @@ const Insights = () => (
       viewport={{ once: true, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="| Insight" textStyles="text-center" />
+      <TypingText title="| Projects" textStyles="text-center" />
       <TitleText title={<>Insight about CDS</>} textStyles="text-center" />
       <div className="mt-[50px] flex flex-col gap-[30px]">
         {insights.map((item, index) => (
@@ -27,4 +27,4 @@ const Insights = () => (
   </section>
 );
 
-export default Insights;
+export default Projects;
