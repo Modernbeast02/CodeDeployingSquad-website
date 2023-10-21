@@ -19,9 +19,9 @@ const Contributors = () => (
       <TypingText title="| Contributors" textStyles="text-center" />
       <TitleText
         title={(
-          <>Track friends around you and invite them to play together in the same
-            world
+          <>Check out your favourite cosmos , Take Inspiration , Build your own Star
           </>
+      
         )}
         textStyles="text-center"
       />

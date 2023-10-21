@@ -2,48 +2,48 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    title: 'AI Astra Nexus',  
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    title: 'AstroCode Architects',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    title: 'BlockBinary Hub',
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    title: 'MindMapping Engineers',
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    title: 'WebCosmic Innovators',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Enter the Galaxy that you find crazy.',
+  'Read the note from the aliens to help you find your suitable repo coast.',
+  'No need to find a spaceship , just find a crater and merge the pr with sand!',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Collaborations',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        ' Collaboration is at our core, as we believe that together we can achieve more than as individuals.',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Inclusivity',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        ' Inclusivity is our strength, where all are welcome, and diversity is celebrated.',
   },
 ];
 

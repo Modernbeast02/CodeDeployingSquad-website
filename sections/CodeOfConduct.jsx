@@ -21,7 +21,7 @@ const CodeOfConduct = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TypingText title="| Code Of Conduct" />
-        <TitleText title={<>What's new about CDS?</>} />
+        <TitleText title={<>Our Values</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />

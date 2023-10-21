@@ -29,9 +29,7 @@ const FounderNote = () => (
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “With the development of today's technology, CDS is very
-          useful for today's work, or can be called web 3.0. by using
-          CDS you can use it as anything”
+          “In the cosmic realm of CDS, we're embarking on an interstellar journey to reshape communities. We have designed the community to help you contribute in the open-source community in an addicting way . Together, we'll create a universe where your involvement helps craft a brighter future among the stars”
         </p>
       </motion.div>
 
