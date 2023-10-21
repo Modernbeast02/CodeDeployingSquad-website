@@ -22,7 +22,7 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">CDS</span>  an open-source community on a mission to address real-world challenges through our cutting-edge projects. Committed to open-source values, we champion collaboration and remote work, enabling coders from diverse backgrounds to unite and make a significant difference. Our shared passion for problem-solving and open-source development drives us forward, fostering a culture of transparency and inclusivity. Let’s explore the {' '}
+        <span className="font-extrabold text-white">CDS</span>  an open-source community on a mission to address real-world challenges through our cutting-edge projects. Committed to open-source values, we champion collaboration and remote work, enabling coders from diverse backgrounds to unite and make a significant difference.Let’s explore the {' '}
         <span className="font-extrabold text-white">
           madness of the CDS
         </span>{' '}

@@ -50,15 +50,15 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: '/planet-06.png',
-    title: 'The launch of the CDS makes Elon musk ketar-ketir',
+    title: 'Fampus',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'Fampus. Campus management system for education institutions.',
   },
   {
     imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the CDS',
+    title: 'Vault Chain',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'Your private vault to store your documents, chat , images and much more... ',
   },
   {
     imgUrl: '/planet-08.png',
